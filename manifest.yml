@@ -1,0 +1,10 @@
+applications:
+- path: output/webApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: pi-porto
+  host: pi-porto
+  disk_quota: 1024M
+  services:
+  - pi-porto-personality_insights
