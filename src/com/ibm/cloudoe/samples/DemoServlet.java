@@ -142,6 +142,8 @@ public class DemoServlet extends HttpServlet {
 			}
 		}
 	}
+	
+	//porto seguro
 
 	/**
 	 * Gets the <b>VCAP_SERVICES</b> environment variable and return it as a
